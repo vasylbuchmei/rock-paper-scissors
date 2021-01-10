@@ -30,7 +30,7 @@ your_choice=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for
 import random
 computer_choice=random.randint(0,2)
 
-if your_choice>=3 or your_choice<=0:
+if your_choice>=3 or your_choice<0:
   print("You typed an invalid number, you lose")
 elif your_choice==0 and computer_choice==0: 
   print(f"{rock}\nComputer chose:\n{rock}\nDraw")
