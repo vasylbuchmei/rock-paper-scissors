@@ -25,7 +25,7 @@ scissors = '''
 ---.__(___)
 '''
 
-your_choice=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n"))
+your_choice = int(input('Welcome to the "Rock-Paper-Scissors Game"\nWhat do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors\n'))
 
 import random
 computer_choice=random.randint(0,2)
